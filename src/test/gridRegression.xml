@@ -10,13 +10,13 @@
             <class name="testCases.VerifyLoginPage"/>
         </classes>
     </test>
-<!--    <test name="FirefoxTest">-->
-<!--        <parameter name="browser" value="firefox"/>-->
-<!--        <classes>-->
-<!--            <class name="testCases.VerifyIndexPage"/>-->
-<!--            <class name="testCases.VerifySinglePage"/>-->
-<!--            <class name="testCases.VerifyMoviePage"/>-->
-<!--            <class name="testCases.VerifyLoginPage"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCases.VerifyIndexPage"/>
+            <class name="testCases.VerifySinglePage"/>
+            <class name="testCases.VerifyMoviePage"/>
+            <class name="testCases.VerifyLoginPage"/>
+        </classes>
+    </test>
 </suite>
