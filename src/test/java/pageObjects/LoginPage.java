@@ -3,7 +3,6 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.annotations.Test;
 
 public class LoginPage extends MovieStorePage {
 
@@ -29,7 +28,6 @@ public class LoginPage extends MovieStorePage {
     @FindBy(xpath = "//form/label")
     WebElement warningLabel;
 
-    @Test
     @Override
     public void searchMovie(String movieName) {
         // Login page does not implement movie search
